@@ -1,3 +1,5 @@
+
+
 void setup()
 {
   size(600, 700);
@@ -36,7 +38,7 @@ class Die //modles one single dice cube
   }
   void roll()
   {
-    roll= ;//(int)(Math.random()*6+1);
+    roll= (int)(Math.random()*6+1);
   }
   void show()
   {
