@@ -1,5 +1,3 @@
-
-
 void setup()
 {
   size(600, 700);
@@ -7,7 +5,7 @@ void setup()
 }
 void draw()
 {
-  backgrund(0);
+  background(0);
   int dotSum =0;
   for (int x=11; x>=0; x--) {
     for (int y =11; y>0; y--) {
@@ -82,4 +80,9 @@ class Die //modles one single dice cube
     fill(255, 255, 255);
   }
 }
+
+
+
+
+
 
